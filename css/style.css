@@ -2384,6 +2384,9 @@ textarea {
     width: 60px;
     height: 60px;
   }
+  .menu__mobile {
+    top: 86px;
+  }
   .mobile__logo-content {
     display: none;
   }
