@@ -1,0 +1,629 @@
+@media (max-width: 1300px){
+	.menu__lists{
+		font-size: 14px;
+	}
+
+	// main
+	.main__slide {
+		padding: 6.7% 4% 0 4%;
+	}
+	.main__slide-title {
+		font-size: 29px;
+	}
+
+	// news
+	.news__left {
+		margin-right: 3%;
+	}
+
+	// recommend
+	.recommend__right-title_down {
+		line-height: 1;
+	}
+}
+@media (max-width: 1140px){
+	body{
+		font-size: 14px;
+	}
+	.menu__lists:nth-child(2){
+	  width: 60%;
+	}
+	.menu__lists:last-child li:last-child{
+		display: none;
+	}  
+	.email-btn {
+		font-size: 15px;
+		padding: 6px 11px 6px;
+		top: 25px;
+	}
+	.header__email,
+	.header__phone{
+		display: none;
+	}
+	.menu__phone{
+		font-style: 10px;
+	}
+	.search__logo {
+    margin-right: 0%;
+	}
+	.search__find-categories{
+		padding-left: 5px;
+	}
+
+	// main
+	.main__item{
+	  min-width: 240px;
+	}
+	.main__slide-content{
+		align-items: center;
+	}
+	.main__slider {
+		margin: 0 7px;
+	}
+	.main__slide-title {
+		font-size: 24px;
+	}
+
+	// recomment
+
+	.recommend__item-img img{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 960px){
+	.menu__lists:last-child li:nth-child(3){
+		display: none;
+	}
+	.menu__lists:nth-child(2) {
+		width: 126%;
+	}
+	.search__logo img{
+		width: 100%;
+		height: auto;
+	}
+	.search__find {
+    margin-right: 1%;
+	}
+	.search__provider,
+	.search__basket-total{
+		margin-right: 1%;
+		font-size: 13px;
+	}
+	.search__basket-sum{
+		font-size: 13px;
+	}
+
+	// main
+	.main__slide-title {
+		font-size: 21px;
+	}
+	.main__banner-title{
+		font-size: 30px;
+	}
+	.main__item{
+		min-width: 235px;
+	  }
+	  .main__slide-img{
+		display: none;
+	}
+	.main__slide-title {
+		font-size: 32px;
+	}
+
+	// partners
+	.partner-brands__link img{
+		width: 100%;
+		height: auto;
+	}
+
+	// news
+	.news__left {
+		display: none;
+	}
+	// recommend
+	.recommend__right-title {
+		font-size: 28px;
+	}
+	.recommend__right-content{
+		margin-left: 3%;
+	}
+}
+@media (max-width: 767px){
+	.container {
+		padding: 0 30px;
+    }
+	.main .container{
+		padding: 0;
+	}
+	// header
+	.menu,
+	.search,
+	.categories{
+		display: none;
+	}
+	.header__mobile,
+	.categories__mobile{
+		display: block;
+	  }
+	 
+	//  menu mobile
+	.menu__mobile {
+		display: block;
+		position: absolute;
+		left: -15px;
+		right: -15px;
+		z-index: 20;
+		text-align: center;
+		top: 99px;
+		height: 0;
+		overflow: hidden;
+		transition: height 0.5s ease-in-out;
+		z-index: 1000;
+	};
+	
+	.menu__mobile_lists{
+		width: 100%;
+		font-size: 16px;
+		color: #fff;
+		transition: height 0.5s ease-in-out;
+	}
+	.menu__mobile_lists.active{
+		height: auto;
+	}
+	 .menu__mobile ul li{
+		  display: block;
+		  width: 100%;
+		  padding-left: 0;
+		  padding-right: 0;
+		  line-height: 2;
+	 }
+	 .menu__mobile ul li a{
+		  display: block;
+		  background-color: #fda11c;
+		  
+		  border-top: 1px solid #fff;
+		  border-bottom: 1px solid #fff;
+	 } 
+	
+	.contact-form {
+		top: 100px;
+		right: 0px;
+	} 
+	// main
+	.main__menu{
+		position: absolute;
+		left: 0px;
+		z-index: 50;
+		font-size: 18px;
+		width: 51.4%;
+		height: 0;
+		overflow: hidden;
+		transition: height 0.5s ease-in-out;
+	};
+	
+	.main__menu.active{
+		height: auto;
+	}
+
+	.main__inner{
+		display: block;
+		margin-bottom: 0;
+	}
+	.main-container {
+		height: 555px;
+	}
+	.main__slider{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 30px;
+		height: 556px;
+	}
+	.main__slide-title{
+	  font-size: 40px;
+	}
+	.main__slide-img{
+		display: block;
+		width: 256px;
+	}
+	.main__slide-content{
+		align-items: normal;
+	}
+	.main__slide {
+		padding: 6.7% 3% 0 4.4%;
+	}
+	.main__slide-text {
+		max-width: 365px;
+		padding-top: 34px;
+	}
+	.main__slide-uptitle{
+		font-size: 25px;
+	}
+	.main__slide-title {
+		font-family: "MyriadPro";
+		margin: 43px 0 23px;
+	}
+	.main__slide-subtitle {
+		font-size: 25px;
+		margin-bottom: 38px;
+	}
+	.main__slide-btn {
+		display: inline-block;
+		font-size: 35px;
+		padding: 18px 30px 15px;
+		border-radius: 36.5px;
+		letter-spacing: -2.1px;
+	}
+	.main__slide-img{
+		width: 256px;
+		height: 357px;
+	}
+	.main__slide-img {
+		margin-top: 2.2%;
+	}
+	.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+		bottom: 37px;
+	}
+	.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+		margin: 0 10px;
+	}
+	.swiper-pagination-bullet {
+		width: 16px;
+		height: 16px;
+	}
+
+
+
+	.main__banner {
+		width: 92%;
+		height: 476px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
+	.main__banner-inner{
+		justify-content: normal;
+		padding-left: 60px;
+		padding-top: 81px;
+	}
+	.main__banner-img {
+		height: 145px;
+		width: auto;
+		margin-bottom: 27px;
+	}
+	.main__banner-img img{
+		height: 100%;
+		width: auto;
+	}
+	.main__banner-text{
+		font-size: 25px;
+		margin-bottom: 14px;
+	}
+	.main__banner-title{
+		font-size: 50px;
+		margin-bottom: 47px;
+	}
+	.main__banner-link{
+		font-size: 30px;
+	}
+	.main__banner-link::after {
+		left: 277px;
+	}
+	// partners
+	.partner-brands{
+		width: 92%;
+		margin: 0 auto;
+	}
+	.partner-brands__lists{
+		flex-wrap: wrap;
+	}
+	.partner-brands__list{
+		width: 50%;
+		line-height: 170px;
+	}
+	.partner-brands__link img{
+		max-width: 225px;
+		height: auto;
+	}
+	.partner-brands__link{
+		line-height: 120px;
+		font-size: 31px;
+		font-family: 'MyriadPro';
+	}
+	.partner-brands__list:nth-child(odd) .partner-brands__link{
+		border-left: none;
+	}
+	.partner-brands__list{
+		border-bottom: solid 1px #e8e7e7;
+	}
+
+	// news
+	.news {
+		display: none;
+	}
+
+	// recommend
+	.section__box {
+		margin-bottom: 78px;
+	}
+	.recommend {
+		margin-top: 144px;
+	}
+	.recommend__title {
+		font-size: 48px;
+	}
+	.recommend__text {
+		letter-spacing: 0px;
+		font-size: 30px;
+	}
+	.recommend__inner{
+		flex-wrap: wrap;
+	}
+	.recommend__item{
+		width: 100%;
+	}
+	.recommend__item-img {
+		width: 260px;
+		height: auto;
+		margin-top: 19px;
+		margin-left: 125px;
+	}
+	.recommend__item-img img{
+		height: auto;
+		width: auto;
+	}
+	.recommend__link-left{
+		display: flex;
+		// align-items: center;
+	}
+	.recommend__left {
+		height: 480px;
+		margin-right: 0;
+	}
+	.recommend__item-content{
+		max-width: 330px;
+		text-align: left;
+		margin-left: 9.9%;
+		margin-right: 0;
+		margin-top: 121px;
+	}
+	.recommend__item-img {
+		width: 260px;
+		height: auto;
+		margin-top: 19px;
+		margin-left: 63px;
+		padding-left: 0px;
+	}
+	.recommend__item{
+		margin-bottom: 10px;
+	}
+	.recommend__item-uptitle {
+		margin-bottom: 35px;
+		font-size: 30px;
+	}
+	.recommend__item-title {
+		font-size: 38px;
+		margin-bottom: 61px;
+	}
+	.recommend__item-text {
+		font-size: 24px;
+	}
+	.recommend__right-box {
+		height: 484px;
+	}
+	.recommend__right-img {
+		width: 387px;
+		margin: 50px 0 0 -151px;
+	}
+	.recommend__right-content {
+		margin-left: 6%;
+		margin-top: 11.3%;
+	}
+	.recommend__right-uptitle {
+		margin-bottom: 41px;
+		margin-top: 0px;
+		font-size: 28px;
+	}
+	.recommend__right-title {
+		font-size: 38px;
+		line-height: 0.7;
+		margin-bottom: 66px;
+	}
+	.recommend__right-text {
+		font-size: 25px;
+		letter-spacing: 0.1px;
+	}
+	.recommend__down-img {
+		margin-top: 75px;
+		margin-right: 0px;
+		margin-left: 93px;
+	}
+	.recommend__right-uptitle_down{
+		margin-bottom: 27px;
+	}
+
+	// services
+	.services{
+		margin-top: 115px;
+		}
+	.services__right{
+		order: -1;
+		margin-left: 59px;
+		margin-bottom: 130px;
+	}
+	.services__inner{
+		flex-wrap: wrap;
+	}
+	.services__text-show{
+		display: none;
+	}
+	.logo__box {
+		margin-bottom: 60px;
+	}
+	.logo__img {
+		margin-bottom: 74px;
+		width: 246px;
+		height: 246px;
+	}
+	.logo__img img{
+		width: 100%;
+		height: auto;
+	}
+	.logo__title {
+		font-family: "MyriadPro";
+		font-size: 49px;
+	}
+	.logo__text {
+		margin-top: 12px;
+		font-size: 25px;
+		letter-spacing: -0.1px;
+	}
+	.company {
+		margin-bottom: 45px;
+	}
+	.company__title {
+		font-size: 39px;
+	}
+	.company__text {
+		font-size: 30px;
+		margin-top: 9px;
+	}
+	.information__text {
+		font-size: 30px;
+	}
+	.services__left {
+		margin-right: 0;
+	}
+	.services__title {
+		font-size: 49px;
+		letter-spacing: -0.4px;
+		margin-bottom: 51px;
+	}
+	.services__text {
+		font-size: 31px;
+		line-height: 1.2;
+		letter-spacing: -0.3px;
+		margin-right: 20px;
+	}
+	.services__btn-circle {
+		margin-top: 115px;
+		width: 102px;
+		height: 102px;
+		font-size: 50px;
+	}
+
+	// contacts
+	.contacts {
+		margin-top: 154px;
+	}
+	.contacts__inner{
+		display: block;
+		padding: 81px 23px 9px;
+	}
+	.contacts__list{
+		margin-bottom: 20px;
+		cursor: pointer;
+	}
+	.contacts__list:nth-child(2),
+	.contacts__list:nth-child(3) {
+		margin-left: 0px;
+	}
+	.contacts__link{
+		display: none;
+	}
+	.contacts__title {
+		position: relative;
+		font-size: 30px;
+		margin-bottom: 34px;
+		padding-bottom: 30px;
+		color: #fff;
+		border-bottom: 1px solid #777777;
+	}
+	.contacts__title::after{
+		content: '+';
+		color: #cecece;
+		display: inline-block;
+		position: absolute;
+		top: -1px;
+		right: -3px;
+	}
+	.contacts__title.active::after{
+		content: '-';
+		color: #cecece;
+		display: inline-block;
+		position: absolute;
+		top: -10px;
+		right: -3px;
+		font-size: 50px;
+	}
+	.contacts__list:last-child .contacts__title{
+		border-bottom: none;
+	}
+	.contacts__list:last-child{
+		display: block;
+	}
+
+	// footer
+	.footer {
+		height: auto;
+	}
+	.footer__inner{
+		display: block;
+		padding: 43px 0px 0px 20px;
+	}
+	.footer__logo-box {
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.footer__logo-img {
+		margin-right: 24px;
+		margin-top: 0px;
+	}
+	.footer__logo-img .logo__link{
+		width: 89px;
+		height: 89px;
+	}
+	.footer__logo-img img{
+		width: 100%;
+		height: 100%;
+	}
+	.footer__logo-title {
+		font-size: 48px;
+		margin-bottom: 16px;
+		letter-spacing: 0px;
+		padding-top: 20px;
+	}
+	.footer__logo-text {
+		line-height: 1.13;
+		letter-spacing: 0.16px;
+		font-family: 'MyriadPro LightSemiExt';
+		color: #787878;
+		font-size: 30px;
+		letter-spacing: 0.3px;
+		color: #fff;
+	}
+	.footer__company {
+		font-size: 40px;
+		letter-spacing: 0.4px;
+		margin-top: -0.2px;
+		margin-top: 17px;
+		padding-bottom: 41px;
+	}
+	.active{
+		display: block;
+	  }
+}
+@media (max-width: 720px){
+	.main__slide-title{
+		font-size: 32px;
+	  }
+}
+@media (max-width: 660px){
+	.recommend__right-title {
+		font-size: 30px;
+		margin-bottom: 45px;
+	}
+	.recommend__right-text {
+		font-size: 22px;
+	}
+}
